@@ -1,0 +1,38 @@
+body {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+div.logo {
+    width: 34px;
+    height: 34px;
+    background: #FC0;
+    clip-path: polygon(26px 0%, 100% 50%, 26px 100%, 0% 100%, 0% 0%);
+}
+
+div.logo::before {
+    width: 0;
+    height: 0;
+    content: "";
+    border-style: solid;
+    border-width: 12px 0 12px 6px;
+    border-color: transparent transparent transparent #FA0000;
+    position: absolute;
+    left: 14px;
+    top: 6px;
+    transform: rotate(9deg);
+}
+
+div.logo::after {
+    width: 0;
+    height: 0;
+    background: #F00;
+    position: absolute;
+    content: "";
+    border-radius: 50%;
+    border: 3px solid #F00;
+    box-shadow: 0 0 0 5px white;
+    top: 10px;
+    left: 12px;
+}

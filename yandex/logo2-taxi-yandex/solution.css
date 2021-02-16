@@ -1,0 +1,28 @@
+div {
+    background: #f8e34b;
+    border-radius: 9px;
+    position: relative;
+}
+
+div::before{
+    background: linear-gradient(to right, #eeedef 50%, #0c0c0c 50%);
+    width: 180px;
+    height: 90px;
+    position: absolute;
+    border-bottom-left-radius: 9px;
+    border-bottom-right-radius: 9px;
+    top: 90px;
+    content: "";
+}
+
+div::after {
+    position: absolute;
+    top: 0;
+    left: -8px;
+    width: 99px;
+    height: 90px;
+    content: "";
+    box-shadow: 0 10px 3px -6px rgba(200, 200, 200, 0.3);
+    transform: rotate(-2deg);
+    z-index: 1;
+}
