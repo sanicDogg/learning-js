@@ -64,10 +64,12 @@ function template(item) {
     const newElement = document.createElement('li');
     newElement.classList.add('search__finding-link');
     newElement.innerHTML = `
-      <a class="search__finding-name" href="${item.html_url}" target="_blank">
-          ${item.full_name}
-      </a>
-      <span class="search__finding-description">${item.description}</span>
+      <div class="search__finding-item">
+          <a class="search__finding-name" href="${item.html_url}" target="_blank">
+              ${item.full_name}
+          </a>
+          <span class="search__finding-description">${item.description}</span>
+      </div>
 	`;
     return newElement;
 }
