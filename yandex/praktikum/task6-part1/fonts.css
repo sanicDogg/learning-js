@@ -1,0 +1,41 @@
+@font-face {
+    src: url(https://code.s3.yandex.net/web-code/fonts/montserrat.woff2) format('woff2');
+    font-family: Montserat;
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url(https://code.s3.yandex.net/web-code/fonts/montserrat.woff) format('woff');
+    font-family: Montserat;
+    font-weight: normal;
+    font-display: swap;
+}
+
+@font-face {
+    src: url(https://code.s3.yandex.net/web-code/fonts/montserratbold.woff2) format('woff2');
+    font-family: Montserat;
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    src: url(https://code.s3.yandex.net/web-code/fonts/montserratbold.woff) format('woff');
+    font-family: Montserat;
+    font-weight: bold;
+    font-display: swap;
+}
+
+@font-face {
+    src: url(https://code.s3.yandex.net/web-code/fonts/montserratblack.woff2) format('woff2');
+    font-family: Montserat;
+    font-weight: 900;
+    font-display: swap;
+}
+
+@font-face {
+    src: url(https://code.s3.yandex.net/web-code/fonts/montserratblack.woff) format('woff');
+    font-family: Montserat;
+    font-weight: 900;
+    font-display: swap;
+}
