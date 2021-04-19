@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Поиск текста внутри узла</title>
+</head>
+<body>
+    <div class="input">
+        <p>Текст, который мы должны найти</p>
+        <div>
+            Еще текст
+            <div>
+                <p>Вот текст</p>
+            </div>
+        </div>
+    </div>
+
+    <p>Текст, который мы не должны найти</p>
+    <div>Этот текст мы тоже не должны найти</div>
+
+
+    <h2>Найденный текст: </h2>
+    <ul class="output"></ul>
+    <script src="recursion.js"></script>
+</body>
+</html>

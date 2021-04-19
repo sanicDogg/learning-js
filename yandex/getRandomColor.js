@@ -2,7 +2,7 @@ getRandomColor();
 getRandomColor2();
 
 function getRandomColor() {
-    var digits = "0123456789ABCDEF";
+    let digits = "0123456789ABCDEF";
     let color = "#";
 
     for (let i = 0; i < 6; i++) {
