@@ -1,0 +1,8 @@
+<p id="elem" style="background: green; width: 200px; height: 200px;"></p>
+
+<script>
+    const elem = document.querySelector('#elem');
+    elem.style.cssText = 'background: red; font-size: 20px;';
+    const allStyles = window.getComputedStyle(elem, null);
+    console.log(allStyles)
+</script>

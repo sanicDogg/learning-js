@@ -1,0 +1,17 @@
+<main id="main">
+    <div>текст, вокруг которого и будет вся движуха</div>
+</main>
+  
+  <script>
+    const elem =  document.querySelector('#main');
+    elem.before('before');
+    elem.after('after');
+  
+    const aboveElem = document.createElement('p');
+    aboveElem.innerHTML = 'prepend';
+    elem.prepend(aboveElem);
+
+    const belowElem = document.createElement('p');
+    belowElem.innerHTML = 'append';
+    elem.append(belowElem); 
+  </script>

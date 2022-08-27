@@ -1,0 +1,26 @@
+<div class="class1 class2 class3 class4" style="background: green; width: 200px; height: 200px;"></div>
+  
+  <script>
+    const elem = document.querySelector('.class1');
+
+    console.log(elem.classList); 
+
+    //Добавим классы
+    elem.classList.add("ok", "understand");
+    console.log(window.getComputedStyle(elem)); 
+
+    //Переключим классы
+    elem.classList.toggle("class1");
+    elem.classList.toggle("abcd");
+    console.log(window.getComputedStyle(elem)); 
+
+    //Проверим класс
+    console.log(elem.classList.contains("class2")); 
+    console.log(elem.classList.contains("js")); 
+
+    //И удалим классы
+    elem.classList.remove("class2", "class3", "class4");
+    console.log(window.getComputedStyle(elem)); 
+
+    console.log(window.getComputedStyle(elem)); 
+  </script>
